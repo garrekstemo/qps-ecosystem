@@ -27,7 +27,7 @@
       <h1>A Julia spectroscopy stack.</h1>
       <p class="lede">Open-source packages for modeling, file parsing, analysis, and eLabFTW integration &mdash; plus QPSTools, the Quantum Photo-Science Lab's private layer that composes them around our instruments and workflow.</p>
       <div class="cta">
-        <a class="btn btn-primary" href="https://garrekstemo.github.io/SpectroscopyTools.jl/">Start with SpectroscopyTools &rarr;</a>
+        <a class="btn btn-primary" href="https://garrekstemo.github.io/OpticalSpectroscopy.jl/">Start with OpticalSpectroscopy &rarr;</a>
         <a class="btn" href="https://github.com/garrekstemo">GitHub</a>
       </div>
     </div>
@@ -38,7 +38,7 @@
       <h2>Pipeline</h2>
       <p>Instrument files flow through loaders into analysis, then into publication-ready figures and an eLabFTW entry. A parallel control stack drives the instruments themselves.</p>
       <figure>
-        <img src="assets/pipeline.svg" alt="A data pipeline from instrument files through loaders (QPSTools, JASCOFiles) to analysis (CurveFit, SpectroscopyTools, CurveFitModels, CavitySpectroscopy) to plotting (QPSTools + Makie) and the eLabFTW lab notebook, with a parallel instrument-control track from hardware through QPSDrive to QPSLab.">
+        <img src="assets/pipeline.svg" alt="A data pipeline from instrument files through loaders (QPSTools, JASCOFiles) to analysis (CurveFit, OpticalSpectroscopy, CurveFitModels) to plotting (QPSTools + Makie) and the eLabFTW lab notebook, with a parallel instrument-control track from hardware through QPSDrive to QPSLab.">
       </figure>
     </div>
   </section>
@@ -90,22 +90,12 @@
           </article>
           <article class="card">
             <header>
-              <h4>SpectroscopyTools.jl</h4>
+              <h4>OpticalSpectroscopy.jl</h4>
             </header>
-            <p>Ultrafast-first analysis: transient-absorption trace / spectrum / matrix types, exponential decay fitting with IRF convolution, and cosmic-ray removal. Plus peak fitting, baselines, PL maps, and unit conversions.</p>
+            <p>Ultrafast-first analysis: transient-absorption trace / spectrum / matrix types, exponential decay fitting with IRF convolution, and cosmic-ray removal. Plus peak fitting, baselines, PL maps, unit conversions, and cavity &amp; polariton analysis (Fabry-P&eacute;rot transmittance, dispersion fitting, Hopfield coefficients).</p>
             <footer>
-              <a href="https://garrekstemo.github.io/SpectroscopyTools.jl/">Docs &rarr;</a>
-              <a href="https://github.com/garrekstemo/SpectroscopyTools.jl">GitHub &rarr;</a>
-            </footer>
-          </article>
-          <article class="card">
-            <header>
-              <h4>CavitySpectroscopy.jl</h4>
-              <span class="badge badge-wip">Pending</span>
-            </header>
-            <p>Polariton analysis &mdash; extraction from QPSTools in progress. Repository currently an empty shell.</p>
-            <footer>
-              <a href="https://github.com/garrekstemo/CavitySpectroscopy.jl">GitHub &rarr;</a>
+              <a href="https://garrekstemo.github.io/OpticalSpectroscopy.jl/">Docs &rarr;</a>
+              <a href="https://github.com/garrekstemo/OpticalSpectroscopy.jl">GitHub &rarr;</a>
             </footer>
           </article>
         </div>

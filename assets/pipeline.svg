@@ -49,9 +49,8 @@
   <!-- Analysis -->
   <rect class="box" x="444" y="55" width="210" height="130" rx="8"/>
   <text class="head" x="549" y="90" text-anchor="middle">Analysis</text>
-  <text class="sub" x="549" y="115" text-anchor="middle">SpectroscopyTools</text>
+  <text class="sub" x="549" y="115" text-anchor="middle">OpticalSpectroscopy</text>
   <text class="sub" x="549" y="133" text-anchor="middle">CurveFitModels</text>
-  <text class="sub" x="549" y="151" text-anchor="middle">CavitySpectroscopy</text>
 
   <!-- Plotting -->
   <rect class="box" x="700" y="40" width="210" height="80" rx="8"/>
